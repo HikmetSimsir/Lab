@@ -17,7 +17,13 @@ public class StudentSearch {
         return student;
         throw new Exception("There is no student with the given name!");
         }
-        
+        /**
+         * An example comment...
+         * @param students
+         * @param name
+         * @return
+         * @throws Exception
+         */
         public ArrayList<Student> findAll(ArrayList<Student> students, String name) throws
 Exception {
 ArrayList<Student> result = new ArrayList<Student>();
